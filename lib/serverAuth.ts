@@ -20,6 +20,6 @@ const serverAuth =async (req: NextApiRequest) => {
     }
 
     return { currentUser };
-}
+};
 
 export default serverAuth;
